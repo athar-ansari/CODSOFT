@@ -1,25 +1,25 @@
-# CODSOFT INTERNSHIP TASK
+# CODSOFT 
 <img src="https://github.com/athar-ansari/CODSOFT/assets/118714083/3d140f41-8fb2-435b-a89b-30f384db2238" width="90%"><br>
 
 * * *
 
-## TASK 3 : CALCULATOR
+## INTERNSHIP TASK 3 : CALCULATOR
 
 ### TASK DESCRIPTION :
-   <p>To create a basic calculator using CSS, HTML, and JavaScript, you'll need to implement an interactive interface with buttons for addition, subtraction, multiplication, and division operations. The calculator should have a display screen to show user input and results. Utilize CSS grid system for button alignments. Use event listeners, if-else statements, operators, and loops to handle user input and perform calculations. This project requires some skill but can be done with basic knowledge of these technologies</p>
+<p>To create a basic calculator using CSS, HTML, & JavaScript, you'll need to implement an interactive interface with buttons for addition, subtraction, multiplication, & division operations. The calculator should have a display screen to show user input & results. Utilize CSS grid system for button alignments. Use event listeners, if-else statements, operators, & loops to handle user input & perform calculations. This project requires some skill but can be done with basic knowledge of these technologies.</p>
   
 * * *
 
-   ### FEATURES 
+   ### FEATURES ✨
    
    * **Welcome to Our Dynamic and Interactive Calculator Website! Here's What Makes it Unique :-**
 
-     -  **Animated Interface** : ***Our calculator comes with a lively animated interface that adds a fun element to your calculations.***
-     -  **Sound Effects** : ***Each button press is accompanied by a sound, enhancing the interactive experience.***
-     -  **Theme Adaptability** : ***The calculator's theme changes according to your system's theme, providing a seamless user experience.***
-     -  **User-Friendly** : ***The design is intuitive and easy to use, making calculations a breeze.***
+     *  **Animated Interface** : ***Our calculator comes with a lively animated interface that adds a fun element to your calculations.***<br>
+     *  **Sound Effects** : ***Each button press is accompanied by a sound, enhancing the interactive experience.***<br>
+     *  **Theme Adaptability** : ***The calculator's theme changes according to your system's theme, providing a seamless user experience.***<br>
+     *  **User-Friendly** : ***The design is intuitive and easy to use, making calculations a breeze.***<br>
 
-**Experience the joy of calculating with us!**
+**Experience the joy of [Calculating](https://simple-calculator0a.netlify.app) with us!**
 
 * * *
 
