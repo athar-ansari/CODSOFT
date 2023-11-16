@@ -1,4 +1,7 @@
 # CODSOFT INTERNSHIP TASK
+<img src="https://github.com/athar-ansari/CODSOFT/assets/118714083/3d140f41-8fb2-435b-a89b-30f384db2238" width="90%"><br>
+
+* * *
 
 ## TASK 3 : CALCULATOR
 
