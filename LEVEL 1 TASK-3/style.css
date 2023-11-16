@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3 ;
+    font-family: sans-serif;
+    outline: none;
+}
+
+
+.border:hover{
+    font-weight: 750;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius:30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+    
+
+}
+
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border:none;
+    border-radius: 30px;
+    color:rgb(70,70,70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+     
+
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                    5px 5px 12px rgba(0,0,0,.16);
+    border:none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                    5px 5px 12px rgba(0,0,0,.16);
+
+}
+
+button:hover{
+
+     background-color: #ecf0f3;
+     box-shadow: inset -5px -5px 12px #ffffff,
+                 inset 5px 5px 12px rgba(0,0,0,.16);
+    
+
+}
+
+
+/* Change Theme According TO My System Theme */
+
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        background-color: #000 !important;
+        color: #ffffff !important;
+    }
+    .calculator{
+    background-color:rgb(20,19,19);
+    box-shadow: inset 5px 5px 12px rgb(41 ,38, 38) ,
+                inset -3px -3px 12px rgb(41 ,38, 38) ;  
+    }
+    
+    input{
+        background-color: rgb(20,19,19);
+        box-shadow: inset -5px -5px 12px black,
+                    inset 5px 5px 12px rgba(0,0,0,.16);
+        color:#fef2f2;
+    }
+    
+    button{
+        color: white !important;
+        background-color: rgb(41 ,38, 38);
+        box-shadow: -5px -5px 12px #000,
+                        5px 5px 12px rgba(0,0,0,.16);
+       
+    }
+
+    .equal{
+        color:white;
+        background-color: rgb(41 ,38, 38);
+        box-shadow: -5px -5px 12px black,
+                        5px 5px 12px rgba(0,0,0,.16);
+    }
+    
+    button:hover{
+        font-weight: 750;
+         background-color:rgb(20,19,19);
+         box-shadow: inset -5px -5px 12px #000,
+                    inset 5px 5px 12px rgb(20,19,19);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .container {
+        color: #333333 !important;
+    }
+
+}
+
+
+/* THE END  */

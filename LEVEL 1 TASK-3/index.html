@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+        <div class="container">
+            <div class="calculator"> 
+                <input type="text" placeholder="0" id="output-screen">
+                <button onclick="Clear()" class="border Sound" data-sound="click1">AC</button>
+                <button onclick="del()" class="border Sound" data-sound="click2">DEL</button>
+                <button onclick="display('%')" class="border Sound" data-sound="click2">%</button>
+                <button onclick="display('/')" class="border Sound" data-sound="click2">/</button>
+                <button onclick="display('7')" class="border Sound" data-sound="click2">7</button>
+                <button onclick="display('8')" class="border Sound" data-sound="click2">8</button>
+                <button onclick="display('9')" class="border Sound" data-sound="click2">9</button>
+                <button onclick="display('*')" class="border Sound" data-sound="click2">*</button>
+                <button onclick="display('4')" class="border Sound" data-sound="click2">4</button>
+                <button onclick="display('5')" class="border Sound" data-sound="click2">5</button>
+                <button onclick="display('6')" class="border Sound" data-sound="click2">6</button>
+                <button onclick="display('-')" class="border Sound" data-sound="click2">-</button>
+                <button onclick="display('1')" class="border Sound" data-sound="click2">1</button>
+                <button onclick="display('2')" class="border Sound" data-sound="click2">2</button>
+                <button onclick="display('3')" class="border Sound" data-sound="click2">3</button>
+                <button onclick="display('+')" class="border Sound" data-sound="click2">+</button>
+                <button onclick="display('.')" class="border Sound" data-sound="click2">.</button>
+                <button onclick="display('0')" class="border Sound" data-sound="click2">0</button>
+                <button onclick="Calculate()" class="equal border Sound" data-sound="click1">=</button>
+            </div>
+        </div>
+         <!-- Button Click Sound Effect -->
+         <audio id="click1Sound">
+            <source src="./click_1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <audio id="click2Sound">
+            <source src="./click_2.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+         <!-- Button Click Sound Effect -->
+
+         <script src="script.js"></script>
+</body>
+
+
+<!--  THE END  -->
