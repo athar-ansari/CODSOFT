@@ -41,4 +41,7 @@
 
 ## 👓 Preview
 
-![LEVEL 1 -- TASK 3](https://github.com/athar-ansari/Simple-Calculator/assets/118714083/7d4596b0-9a00-4983-9e98-c3cb4012c232)
+##  ![LEVEL 1 -- TASK 3](https://github.com/athar-ansari/Simple-Calculator/assets/118714083/7d4596b0-9a00-4983-9e98-c3cb4012c232)<br>
+
+
+<br>[CERTIFICATE](https://github.com/athar-ansari/CODSOFT/blob/main/LEVEL%201%20TASK-3/CERTIFICATE.md)
